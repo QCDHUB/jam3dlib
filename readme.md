@@ -11,9 +11,14 @@
 
 - Activate the enviroment 
 
-  ``conda activate jam''
+  ```conda activate jam```
 
-conda install subprocess32
+- Install subprocess32
+
+  ```conda install subprocess32```
+
+
+
 
 
 git clone --recursive git@github.com:JeffersonLab/jam3dlib.git 
