@@ -1,4 +1,4 @@
-[![jamlogo](docs/logos/jam.jpg)](http://www.jlab.org/jam)
+[![jamlogo](logos/jam.jpg)]
 
 # JAM3DLIB
 
