@@ -7,7 +7,7 @@
 
 - Create an enviroment 
 
-  ``conda create --name jam python=2.7''
+  ```conda create --name jam python=2.7```
 
 - Activate the enviroment 
 
