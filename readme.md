@@ -33,6 +33,11 @@
 
 ## Getting started
 
+- source the setup
+
+  ```soruce setup.bash```
+
+
 We provide two files in the repo with a minimalistic 
 examples to evalue the distributions
 
