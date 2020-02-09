@@ -40,6 +40,11 @@ examples to evalue the distributions
 
 
 
+## Authors
+
+- N. Sato JLab
+
+- add yourself if you contribute :)
 
 
 
