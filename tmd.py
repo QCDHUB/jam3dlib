@@ -21,23 +21,15 @@ class TMD:
         self.parman.set_new_params(self.par[irep],initial=True)
 
         if  dist=='pdf' and had=='p':
-            return conf['pdf'].get_tmd(x,Q2,kT,'p','pdf',icol=icol)  
-        elif dist=='ff' and had=='pi+': 
-            return conf['ffpi'].get_tmd(x,Q2,kT,'pi','ffpi',icol=icol)  
+            return conf['pdf'].get_tmd(x,Q2,kT,'p','pdf',icol=icol)
+        elif dist=='ff' and had=='pi': 
+            return conf['ffpi'].get_tmd(x,Q2,kT,'pi','ffpi',icol=icol)
         elif dist=='sivers' and had=='p':
-            return conf['sivers'].get_tmd(x,Q2,kT,'p','sivers',icol=icol)  
+            return conf['sivers'].get_tmd(x,Q2,kT,'p','sivers',icol=icol)
         elif dist=='transversity' and had=='p':
-           return conf['transversity'].get_tmd(x,Q2,kT,'p','transversity',icol=icol)  
+           return conf['transversity'].get_tmd(x,Q2,kT,'p','transversity',icol=icol)
         elif dist=='collinspi' and had=='pi':
-            return conf['collinspi'].get_tmd(x,Q2,kT,'pi','collinspi',icol=icol)  
+            return conf['collinspi'].get_tmd(x,Q2,kT,'pi','collinspi',icol=icol)
         else:
             print('dist and had not available')
             sys.exit()
-
-
-
-
-
-
-
-

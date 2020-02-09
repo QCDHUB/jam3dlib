@@ -3,38 +3,43 @@
 # JAM3DLIB
 
 
-## Installation 
+## Installation
 
-### prepare a jam python enviroment (python2)
+### clone the repo
 
-- Get anaconda2 or anaconda 3 it in your system
+- git clone --recursive git@github.com:JeffersonLab/jam3dlib.git
 
-- Create an enviroment 
+### prepare a jam python environment (python2)
+
+- Download anaconda2 or anaconda3 into your system
+
+- Create an environment
 
   ```conda create --name jam python=2.7```
 
-- Activate the enviroment 
+- Activate the environment
 
-  ```conda activate jam```
+  ```conda activate jam #for conda 4.6 or later```
 
-- Install subprocess32 
+  ```source activate jam #for conda versions earlier than 4.6```
+
+- Install subprocess32
 
   ```conda install subprocess32```
 
-- Install all the dependencies 
+- Install all the dependencies
 
   ```pip install -r dependencies```
 
 
-### clone the repo
-
-- git clone --recursive git@github.com:JeffersonLab/jam3dlib.git 
-
-
 ## Getting started
 
-We provide two files in the repo with a minimalistic 
-examples to evalue the distributions
+Source the setup
+
+```source setup.bash```
+
+We have provided two files in the repo with simple
+examples to evaluate the TMD PDFs and FFs or collinear (OPE) twist-3 functions.
 
 - example.py
 
@@ -70,9 +75,3 @@ examples to evalue the distributions
 ![logo](logos/jlab.png)
 
 ...
-
-
-
-
-
-
