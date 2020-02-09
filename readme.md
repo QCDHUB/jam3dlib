@@ -1,3 +1,5 @@
+[![jamlogo](docs/logos/jam.jpg)](http://www.jlab.org/jam)
+
 # JAM3DLIB
 
 
@@ -44,8 +46,12 @@ examples to evalue the distributions
 
 - N. Sato JLab
 
-- add yourself if you contribute :)
+- ...
 
+
+[![jamlogo](logos/jam.jpg)](http://www.jlab.org/jam)
+[![jamlogo](logos/lvc.jpg)]
+[![jamlogo](logos/psu.jpg)]
 
 
 
