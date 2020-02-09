@@ -44,9 +44,23 @@ examples to evalue the distributions
 
 ## Authors
 
-- N. Sato JLab
+- Justin Cammarota
 
-- ...
+- Leonard Gamberg
+
+- Zhong-Bo Kang
+
+- Joshua A. Miller
+
+- Daniel Pitonyak
+
+- Alexei Prokudin
+
+- Ted C. Rogers
+
+- Nobuo Sato
+
+
 
 ## Institutions
 
