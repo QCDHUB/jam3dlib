@@ -39,7 +39,7 @@ Source the setup
 ```source setup.bash```
 
 We have provided two files in the repo with simple
-examples to evaluate the TMD PDFs and FFs or collinear (OPE) twist-3 functions.
+examples to evaluate the TMD and CT3 PDFs/FFs.
 
 - example.py
 
