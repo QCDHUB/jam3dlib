@@ -19,9 +19,11 @@
 
 - Activate the environment
 
-  ```conda activate jam #for conda 4.6 or later```
+  ```conda activate jam ###for conda 4.6 or later```
 
-  ```source activate jam #for conda versions earlier than 4.6```
+  or
+
+  ```source activate jam ###for conda versions earlier than 4.6```
 
 - Install subprocess32
 
@@ -39,11 +41,11 @@ Source the setup
 ```source setup.bash```
 
 We have provided two files in the repo with simple
-examples to evaluate the TMD and CT3 PDFs/FFs.
+examples to evaluate the TMD and CT3 PDFs/FFs
 
-- example.py
+- example.py: bare-bones template python file
 
-- example.ipynb
+- example.ipynb: more detailed example jupyter notebook
 
 
 
