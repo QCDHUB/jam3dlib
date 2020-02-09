@@ -50,7 +50,7 @@ examples to evalue the distributions
 
 ## Institutions
 
-[![logo](logos/jlab.jpg)]
+[![logo](logos/jlab.png)]
 [![logo](logos/lvc.jpg)]
 [![logo](logos/psu.png)]
 
