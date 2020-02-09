@@ -48,10 +48,11 @@ examples to evalue the distributions
 
 - ...
 
+## Institutions
 
-[![jamlogo](logos/jam.jpg)](http://www.jlab.org/jam)
-[![jamlogo](logos/lvc.jpg)]
-[![jamlogo](logos/psu.jpg)]
+[![logo](logos/jlab.jpg)]
+[![logo](logos/lvc.jpg)]
+[![logo](logos/psu.png)]
 
 
 
