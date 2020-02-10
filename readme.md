@@ -7,7 +7,7 @@
 
 ### clone the repo
 
-- git clone --recursive git@github.com:JeffersonLab/jam3dlib.git
+ ```git clone --recursive git@github.com:JeffersonLab/jam3dlib.git```
 
 ### prepare a jam python environment (python2)
 
