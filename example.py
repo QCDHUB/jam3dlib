@@ -6,7 +6,7 @@ from tmd import TMD
 
 def main1():
 
-    tag='020820'
+    tag='JAM3D_2020'
     x=0.1
     Q2=10.0
     kT=0.1
@@ -17,5 +17,3 @@ def main1():
 if __name__=="__main__":
 
     main1()
-
-
