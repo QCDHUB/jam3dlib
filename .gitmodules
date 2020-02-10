@@ -1,0 +1,3 @@
+[submodule "jam3d"]
+	path = jam3d
+	url = git@github.com:JeffersonLab/jam3d.git
