@@ -1,4 +1,4 @@
-[![jamlogo](logos/jam.jpg)]
+![jamlogo](logos/jam.jpg)
 
 # JAM3DLIB
 
