@@ -14,7 +14,7 @@
 ### clone the repo
 
  ```git clone --recursive git@github.com:JeffersonLab/jam3dlib.git```
- 
+
  ```cd jam3dlib```
 
 ### prepare a jam python environment (python2)
@@ -27,11 +27,15 @@
 
 - Activate the environment
 
-  ```conda activate jam ###for conda 4.6 or later```
+  ```conda activate jam```
 
-  or
+  for conda 4.6 or later
 
-  ```source activate jam ###for conda versions earlier than 4.6```
+  OR
+
+  ```source activate jam```
+
+  for conda versions earlier than 4.6
 
 - Install subprocess32
 
@@ -51,13 +55,17 @@ Source the setup
 We have provided two files in the repo with simple
 examples to evaluate the TMD and CT3 PDFs/FFs
 
-- example.py: bare-bones template python file
-
 - example.ipynb: more detailed example jupyter notebook
 
+```jupyter notebook example.ipynb```
+
+- example.py: bare-bones template python file
+
+```python example.py```
 
 
-## Authors
+
+## Authors (Please contact Daniel, Alexei, or Nobuo with questions)
 
 - Justin Cammarota
 
@@ -67,13 +75,13 @@ examples to evaluate the TMD and CT3 PDFs/FFs
 
 - Joshua A. Miller
 
-- Daniel Pitonyak
+- Daniel Pitonyak (pitonyak@lvc.edu)
 
-- Alexei Prokudin
+- Alexei Prokudin (avp5627@psu.edu)
 
 - Ted C. Rogers
 
-- Nobuo Sato
+- Nobuo Sato (nsato@jlab.org)
 
 
 
