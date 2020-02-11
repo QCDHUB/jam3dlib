@@ -55,7 +55,7 @@ Source the setup
 We have provided two files in the repo with simple
 examples to evaluate the TMD and CT3 PDFs/FFs
 
-- example.ipynb: more detailed example jupyter notebook
+- example.ipynb: detailed example jupyter notebook
 
 ```jupyter notebook example.ipynb```
 
