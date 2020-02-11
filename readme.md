@@ -77,7 +77,7 @@ examples to evaluate the TMD and CT3 PDFs/FFs
 
 - Daniel Pitonyak (pitonyak@lvc.edu)
 
-- Alexei Prokudin (avp5627@psu.edu)
+- Alexei Prokudin (prokudin@jlab.org)
 
 - Ted C. Rogers
 
