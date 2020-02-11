@@ -19,7 +19,7 @@
 
 ### prepare a jam python environment (python2)
 
-- Download anaconda2 or anaconda3 into your system
+- Download anaconda2 or anaconda3 into your system from https://www.anaconda.com/distribution/
 
 - Create an environment
 
