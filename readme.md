@@ -1,4 +1,4 @@
-[![jamlogo](logos/jam.jpg)]
+![jamlogo](logos/jam.jpg)
 
 # JAM3DLIB
 
@@ -19,7 +19,7 @@
 
 ### prepare a jam python environment (python2)
 
-- Download anaconda2 or anaconda3 into your system
+- Download and install anaconda2 or anaconda3 into your system from https://www.anaconda.com/distribution/
 
 - Create an environment
 
@@ -77,7 +77,7 @@ examples to evaluate the TMD and CT3 PDFs/FFs
 
 - Daniel Pitonyak (pitonyak@lvc.edu)
 
-- Alexei Prokudin (avp5627@psu.edu)
+- Alexei Prokudin (prokudin@jlab.org)
 
 - Ted C. Rogers
 
