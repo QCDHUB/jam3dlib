@@ -87,7 +87,7 @@ examples to evaluate the TMD and CT3 PDFs/FFs
 
 ## Institutions
 
-![](logos/lvc.jpg =250x250)
+![l](logos/lvc.jpg)
 ![logo](logos/PSU_BKO_RGB_2C.png)
 ![logo](logos/odu.png)
 ![logo](logos/JLab_logo_white1.jpg)
