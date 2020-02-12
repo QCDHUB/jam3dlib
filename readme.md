@@ -91,5 +91,4 @@ examples to evaluate the TMD and CT3 PDFs/FFs
 ![logo](logos/PSU_BKO_RGB_2C.png)
 ![logo](logos/odu.png)
 ![logo](logos/jlab.png)
-
-...
+![logo](logos/NSF_4-Color_bitmap_Logo.png)
