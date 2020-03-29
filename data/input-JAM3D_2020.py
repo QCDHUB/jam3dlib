@@ -1,5 +1,6 @@
 conf={}
-
+conf['order']='LO'
+conf['Q20']=2.0
 
 #--parameters
 conf['params']={}
@@ -588,6 +589,3 @@ conf['params']['sivers']['sb c0 2'] ={'value':    0.00000e+00, 'min':-1.0, 'max'
 conf['params']['sivers']['sb c1 2'] ={'value':    0.00000e+00, 'min':-1.0, 'max': 1.0, 'fixed': 's c1 2'}
 conf['params']['sivers']['sb d0 2'] ={'value':    0.00000e+00, 'min':-1.0, 'max': 1.0, 'fixed': 's d0 2'}
 conf['params']['sivers']['sb d1 2'] ={'value':    0.00000e+00, 'min':-1.0, 'max': 1.0, 'fixed': 's d1 2'}
-
-
-
