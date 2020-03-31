@@ -24,6 +24,7 @@
 - If you run anaconda3 then create and activate python2 enviroment
 
   ```conda create -n python2 python=2.7 anaconda```
+  
   ```conda activate python2```
 
 - Create a JAM  environment
