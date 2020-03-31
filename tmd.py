@@ -58,7 +58,7 @@ class TMD:
         if asymmetry=='Siv': # sin(phi_s-phi_h)
             return self.eval_stfunc('FUTSiv',x,z,Q2,pT,tar,had,irep,icol)/self.eval_stfunc('FUU',x,z,Q2,pT,tar,had,irep,icol)
         elif stfunc=='Col':  # sin(phi_s+phi_h) NO DEPOLARIZATION FACTOR ADDED
-            return self.eval_stfunc('FUTSiv',x,z,Q2,pT,tar,had,irep,icol)/self.eval_stfunc('FUU',x,z,Q2,pT,tar,had,irep,icol)
+            return self.eval_stfunc('FUTCol',x,z,Q2,pT,tar,had,irep,icol)/self.eval_stfunc('FUU',x,z,Q2,pT,tar,had,irep,icol)
         else:
             print(stfunc,'is not available')
             sys.exit()
