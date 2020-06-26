@@ -6,6 +6,7 @@ from fitlib.resman import RESMAN
 from obslib.sidis import upol0 as upol
 from obslib.sidis import sivers0 as sivers
 from obslib.sidis import collins0 as collins
+from obslib.AN_pp import AN_theory0 as AN_theory
 
 class TMD:
 
@@ -19,28 +20,28 @@ class TMD:
         self.par=self.jar['par']
         self.nrep=len(self.par)
 
-    def eval(self,x,Q2,kT,had,dist,irep,icol=False):
+    def eval(self,x,Q2,kT,had,dist,irep,icol=False,deriv=False):
 
         self.parman.set_new_params(self.par[irep],initial=True)
 
         if  dist=='pdf' and had=='p':
-            return conf['pdf'].get_tmd(x,Q2,kT,'p','pdf',icol=icol)
-        elif dist=='ff' and had=='pi': 
-            return conf['ffpi'].get_tmd(x,Q2,kT,'pi','ffpi',icol=icol)
+            return conf['pdf'].get_tmd(x,Q2,kT,'p','pdf',icol=icol,deriv=False)
+        elif dist=='ff' and had=='pi':
+            return conf['ffpi'].get_tmd(x,Q2,kT,'pi','ffpi',icol=icol,deriv=False)
         elif dist=='sivers' and had=='p':
-            return conf['sivers'].get_tmd(x,Q2,kT,'p','sivers',icol=icol)
+            return conf['sivers'].get_tmd(x,Q2,kT,'p','sivers',icol=icol,deriv=False)
         elif dist=='transversity' and had=='p':
-           return conf['transversity'].get_tmd(x,Q2,kT,'p','transversity',icol=icol)
+           return conf['transversity'].get_tmd(x,Q2,kT,'p','transversity',icol=icol,deriv=False)
         elif dist=='collinspi' and had=='pi':
-            return conf['collinspi'].get_tmd(x,Q2,kT,'pi','collinspi',icol=icol)
+            return conf['collinspi'].get_tmd(x,Q2,kT,'pi','collinspi',icol=icol,deriv=False)
         else:
             print('dist and had not available')
             sys.exit()
 
     def eval_stfunc(self,stfunc,x,z,Q2,pT,tar,had,irep,icol=False):
-        
+
         self.parman.set_new_params(self.par[irep],initial=True)
-        
+
         if stfunc=='FUU':
             return upol.get_FUU(x,z,Q2,pT,tar,had)
         elif stfunc=='FUTSiv':
@@ -51,19 +52,28 @@ class TMD:
             print(stfunc,'is not available')
             sys.exit()
 
-    def eval_asymmetry(self,asymmetry,x,z,Q2,pT,tar,had,irep,icol=False):
-        
+    def eval_TMDasym(self,asym,x,z,Q2,pT,tar,had,irep,icol=False):
+
         self.parman.set_new_params(self.par[irep],initial=True)
-        
-        if asymmetry=='Siv': # sin(phi_s-phi_h)
+
+        if asym=='Siv': # sin(phi_s-phi_h)
             return self.eval_stfunc('FUTSiv',x,z,Q2,pT,tar,had,irep,icol)/self.eval_stfunc('FUU',x,z,Q2,pT,tar,had,irep,icol)
-        elif stfunc=='Col':  # sin(phi_s+phi_h) NO DEPOLARIZATION FACTOR ADDED
+        elif asym=='Col':  # sin(phi_s+phi_h) NO DEPOLARIZATION FACTOR ADDED
             return self.eval_stfunc('FUTCol',x,z,Q2,pT,tar,had,irep,icol)/self.eval_stfunc('FUU',x,z,Q2,pT,tar,had,irep,icol)
         else:
             print(stfunc,'is not available')
             sys.exit()
-             
-            
+
+    def eval_ANasym(self,asym,xF,pT,rs,tar,had,irep):
+
+        self.parman.set_new_params(self.par[irep],initial=True)
+
+        if asym=='ANpp':
+            den = AN_theory.get_sig(xF, pT, rs, tar, had, mode='gauss', nx=10, nz=10)
+            num = AN_theory.get_sigST(xF, pT, rs, tar, had,mode='gauss', nx=10, nz=10)
+            return num/den
+
+
 if __name__ == '__main__':
 
 
@@ -74,13 +84,9 @@ if __name__ == '__main__':
     tar = 'p'
     had = 'pi+'
     stfunc='FUTCol'
-    
-    tag='JAM3D_2020' 
+
+    tag='JAM3D_2020'
     tmd=TMD(tag)
-    
-    print(tmd.eval_stfunc(stfunc, x, z, Q2, pT, tar, had, 0, icol=False)) 
-    print(tmd.eval_asymmetry('Siv', x, z, Q2, pT, tar, had, 0, icol=False)) 
 
-
-
-     
+    print(tmd.eval_stfunc(stfunc, x, z, Q2, pT, tar, had, 0, icol=False))
+    print(tmd.eval_asymmetry('Siv', x, z, Q2, pT, tar, had, 0, icol=False))
