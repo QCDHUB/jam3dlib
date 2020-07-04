@@ -53,7 +53,7 @@
   ```cd ../jam3dlib```
 
 - We have provided two files in the jam3dlib repo with simple
-examples to evaluate the TMD and CT3 PDFs/FFs
+examples to evaluate the TMD and CT3 PDFs/FFs and asymmetries
 
    - example.ipynb: detailed example jupyter notebook
 
