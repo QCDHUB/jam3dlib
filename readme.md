@@ -28,6 +28,8 @@
 
 - Install subprocess32
 
+  ```cd jam3dlib```
+
   ```conda install subprocess32```
 
 - Install all the dependencies
@@ -39,13 +41,13 @@
 
 - Change into the jam3d directory 
 
-  ```cd jam3d```
+  ```cd ../jam3d```
 
 - Source the setup
 
   ```source setup.bash```
 
-- Changed into the jam3dlib directory
+- Changed back into the jam3dlib directory
 
   ```cd ../jam3dlib```
 
