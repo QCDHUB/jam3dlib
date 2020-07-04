@@ -42,15 +42,15 @@
 
 - Change into the jam3d directory 
 
-```cd jam3d```
+  ```cd jam3d```
 
 - Source the setup
 
-```source setup.bash```
+  ```source setup.bash```
 
 - Changed into the jam3dlib directory
 
-```cd ../jam3dlib```
+  ```cd ../jam3dlib```
 
 - We have provided two files in the repo with simple
 examples to evaluate the TMD and CT3 PDFs/FFs
