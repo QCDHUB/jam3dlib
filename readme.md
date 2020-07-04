@@ -4,9 +4,9 @@
 
 ## List of Fits
 
-|Reference        |   tag    |  Data Included                                 |   Functions Extracted       |
-|-----------------|----------|------------------------------------------------|-----------------------------|
-|arXiv:2002.08384 |JAM3D_2020|SIDIS (Siv, Col), SIA (Col), DY (Siv), pp (AN)  |Sivers, transversity, Collins|                                                                      
+|Reference        |   tag    |  Data Included                                               |   Functions Extracted       |
+|-----------------|----------|--------------------------------------------------------------|-----------------------------|
+|arXiv:2002.08384 |JAM3D_2020|SIDIS (Sivers, Collins), SIA (Collins), DY (Sivers), pp (AN)  |Sivers, transversity, Collins|                                                                      
 
 ## Installation
 
