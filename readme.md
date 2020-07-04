@@ -47,7 +47,7 @@
 
   ```source setup.bash```
 
-- Changed back into the jam3dlib directory
+- Change back into the jam3dlib directory
 
   ```cd ../jam3dlib```
 
