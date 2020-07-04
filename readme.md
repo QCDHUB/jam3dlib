@@ -13,7 +13,9 @@
 
 ### clone the repo
 
- ```git clone --recursive git@github.com:JeffersonLab/jam3dlib.git```
+ ```git clone  git@github.com:QCDHUB/jam3dlib.git```
+
+ ```git clone  git@github.com:QCDHUB/jam3d.git```
 
  ```cd jam3dlib```
 
