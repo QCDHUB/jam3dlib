@@ -52,16 +52,16 @@
 
   ```cd ../jam3dlib```
 
-- We have provided two files in the repo with simple
+- We have provided two files in the jam3dlib repo with simple
 examples to evaluate the TMD and CT3 PDFs/FFs
 
-- example.ipynb: detailed example jupyter notebook
+   - example.ipynb: detailed example jupyter notebook
 
-```jupyter notebook example.ipynb```
+     ```jupyter notebook example.ipynb```
 
-- example.py: bare-bones template python file
+   - example.py: bare-bones template python file
 
-```python example.py```
+     ```python example.py```
 
 
 
