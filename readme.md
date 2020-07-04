@@ -21,7 +21,7 @@
 
 - Download and install anaconda3 (python 3.7) into your system from https://www.anaconda.com/distribution/
 
-- Create and activate python2 enviroment
+- Create and activate a python 2.7 enviroment
 
   ```conda create -n python2 python=2.7 anaconda```
   
