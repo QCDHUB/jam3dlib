@@ -17,8 +17,6 @@
 
  ```git clone  git@github.com:QCDHUB/jam3d.git```
 
- ```cd jam3dlib```
-
 ### prepare a python2 environment 
 
 - Download and install anaconda3 (python 3.7) into your system from https://www.anaconda.com/distribution/
