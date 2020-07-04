@@ -18,7 +18,7 @@
 
 ### prepare a python 2.7 environment 
 
-- Download and install anaconda3 (python 3.7) into your system from https://www.anaconda.com/distribution/ (python 2.7 is no longer supported but needed to run jam3d)
+- Download and install anaconda3 (python 3.7) into your system from https://www.anaconda.com/distribution/ (python 2.7 is no longer supported but is needed to run jam3d)
 
 - Create and activate a python 2.7 enviroment
 
