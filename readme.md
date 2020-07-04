@@ -11,7 +11,7 @@
 
 ## Installation
 
-### clone the repo
+### clone the repos
 
  ```git clone  git@github.com:QCDHUB/jam3dlib.git```
 
