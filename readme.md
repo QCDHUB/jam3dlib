@@ -19,31 +19,15 @@
 
  ```cd jam3dlib```
 
-### prepare a jam python environment (python2)
+### prepare a python2 environment 
 
-- Download and install anaconda2 or anaconda3 into your system from https://www.anaconda.com/distribution/
+- Download and install anaconda3 (python 3.7) into your system from https://www.anaconda.com/distribution/
 
-- If you run anaconda3 then create and activate python2 enviroment
+- Create and activate python2 enviroment
 
   ```conda create -n python2 python=2.7 anaconda```
   
   ```conda activate python2```
-
-- Create a JAM  environment
-
-  ```conda create --name jam python=2.7```
-
-- Activate the environment
-
-  ```conda activate jam```
-
-  for conda 4.6 or later
-
-  OR
-
-  ```source activate jam```
-
-  for conda versions earlier than 4.6
 
 - Install subprocess32
 
@@ -56,11 +40,19 @@
 
 ## Getting started
 
-Source the setup
+- Change into the jam3d directory 
+
+```cd jam3d```
+
+- Source the setup
 
 ```source setup.bash```
 
-We have provided two files in the repo with simple
+- Changed into the jam3dlib directory
+
+```cd ../jam3dlib```
+
+- We have provided two files in the repo with simple
 examples to evaluate the TMD and CT3 PDFs/FFs
 
 - example.ipynb: detailed example jupyter notebook
