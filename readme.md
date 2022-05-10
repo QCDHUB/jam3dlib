@@ -1,5 +1,7 @@
 ![jamlogo](logos/jam.jpg)
 
+# THIS LIBRARY IS NOW DEPRECATED - PLEASE VISIT https://colab.research.google.com/github/pitonyak25/jam3d_dev_lib/blob/main/JAM3D_Library.ipynb
+
 # JAM3DLIB
 
 ## List of Fits
